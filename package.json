@@ -1,0 +1,50 @@
+{
+  "name": "vue-black-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A sample admin dashboard based on black dashboard UI template",
+  "author": "cristian.jora <joracristi@gmail.com>",
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "e2e": "node test/e2e/runner.js",
+    "lint": "vue-cli-service lint",
+    "dev": "vue-cli-service serve --open",
+    "lint-fix": "vue-cli-service lint --fix"
+  },
+  "dependencies": {
+    "autocomplete.js": "^0.37.0",
+    "chart.js": "^2.9.3",
+    "jquery": "^3.4.1",
+    "luxon": "^1.21.1",
+    "popper.js": "^1.16.0",
+    "register-service-worker": "^1.5.2",
+    "underscore": "^1.9.1",
+    "vue": "^2.6.6",
+    "vue-bootstrap-typeahead": "^0.2.6",
+    "vue-chartjs": "^3.5.0",
+    "vue-datetime": "^1.0.0-beta.11",
+    "vue-i18n": "^8.8.1",
+    "vue-router": "^3.0.2",
+    "vue-router-prefetch": "^1.4.0",
+    "vue2-autocomplete-js": "^0.2.2",
+    "vue2-transitions": "^0.2.3",
+    "weekstart": "^1.0.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.9.0",
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-pwa": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-i18n": "^0.5.1",
+    "vue-template-compiler": "^2.6.6"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 11"
+  ]
+}
