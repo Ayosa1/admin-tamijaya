@@ -66,7 +66,7 @@
                 <label for="exampleInputEmail1">layout</label>
                 <p style="color: red">Masukan Sesuai format [0,0];[0,0];</p>
                 <input
-                  v-model="kirim.nopol3"
+                  v-model="kirim.layout"
                   placeholder="[0,0];[0,0];"
                   style="color: black;"
                   type="text"
