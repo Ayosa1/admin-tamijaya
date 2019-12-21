@@ -10,6 +10,7 @@ import login from "@/pages/login.vue";
 const Dashboard = () => import(/* webpackChunkName: "dashboard" */"@/pages/Dashboard.vue");
 const Profile = () => import(/* webpackChunkName: "common" */ "@/pages/Profile.vue");
 const bookingbus = () => import(/* webpackChunkName: "common" */ "@/pages/bookingbus.vue");
+const pesantiket = () => import(/* webpackChunkName: "common" */ "@/pages/tiketbus.vue");
 const loginlay = () => import(/* webpackChunkName: "common" */ "@/pages/login_layout.vue");
 const regley = () => import(/* webpackChunkName: "common" */ "@/pages/register_layout.vue");
 // const login = () => import(/* webpackChunkName: "common" */ "@/auth/login.vue");
@@ -20,6 +21,7 @@ const armada = () => import(/* webpackChunkName: "common" */ "@/pages/armada.vue
 const Notifications = () => import(/* webpackChunkName: "common" */"@/pages/Notifications.vue");
 const Icons = () => import(/* webpackChunkName: "common" */ "@/pages/Icons.vue");
 const Maps = () => import(/* webpackChunkName: "common" */ "@/pages/Maps.vue");
+const Laporanperjalanan = () => import(/* webpackChunkName: "common" */ "@/pages/laporanperjalanan.vue");
 const Typography = () => import(/* webpackChunkName: "common" */ "@/pages/Typography.vue");
 const TableList = () => import(/* webpackChunkName: "common" */ "@/pages/TableList.vue");
 
@@ -64,6 +66,11 @@ const routes = [
         component: Profile
       },
       {
+        path: "Laporanperjalanan",
+        name: "Laporanperjalanan",
+        component: Laporanperjalanan
+      },
+      {
         path: "notifications",
         name: "notifications",
         component: Notifications
@@ -97,6 +104,11 @@ const routes = [
         path: "jadwal",
         name: "jadwal",
         component: jadwal
+      },
+      {
+        path: "pesantiket",
+        name: "pesantiket",
+        component: pesantiket
       },
       {
         path: "pembayaran",
