@@ -17,7 +17,7 @@
     "autocomplete.js": "^0.37.0",
     "chart.js": "^2.9.3",
     "express": "^4.17.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "luxon": "^1.21.1",
     "popper.js": "^1.16.0",
     "register-service-worker": "^1.5.2",
