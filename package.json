@@ -21,7 +21,7 @@
     "luxon": "^1.21.1",
     "popper.js": "^1.16.0",
     "register-service-worker": "^1.5.2",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "vue": "^2.6.6",
     "vue-bootstrap-typeahead": "^0.2.6",
     "vue-chartjs": "^3.5.0",
