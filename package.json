@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "autocomplete.js": "^0.37.0",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
     "luxon": "^1.21.1",
