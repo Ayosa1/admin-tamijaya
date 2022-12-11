@@ -16,7 +16,7 @@
   "dependencies": {
     "autocomplete.js": "^0.37.0",
     "chart.js": "^2.9.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jquery": "^3.4.1",
     "luxon": "^1.21.1",
     "popper.js": "^1.16.0",
